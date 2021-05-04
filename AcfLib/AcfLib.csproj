@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Adjair Farias</Authors>
+    <Description>Recursos de funcionalidades para uso particular.</Description>
+  </PropertyGroup>
+
+</Project>
