@@ -1,6 +1,6 @@
 ﻿namespace AcfLib.Telefone
 {
-    internal abstract class ValidacaoDeNumeroCelular
+    public abstract class ValidacaoDeNumeroCelular
     {
         public bool ValidarCelular(string numeroCelular)
         {

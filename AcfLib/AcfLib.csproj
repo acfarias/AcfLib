@@ -4,8 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Adjair Farias</Authors>
-    <Description>Recursos de funcionalidades para uso particular.</Description>
+    <Description>Biblioteca para uso pessoal com diversas funcionalidades.</Description>
     <Version>1.1.0</Version>
+    <PackageId>MyLibraries</PackageId>
+    <PackageReleaseNotes>Validação de Cpf/Cnpj;
+Validação de Cep;
+Validação de Cartão de Crédito;
+Validação de Celular;
+Exception Filters;</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿namespace AcfLib.Cartao
 {
-    internal abstract class ValidacaoDeCartao
+    public abstract class ValidacaoDeCartao
     {
         public bool ValidarCartao(string numeroCartao)
         {

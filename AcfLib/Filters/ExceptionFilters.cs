@@ -7,7 +7,7 @@ using System.Net;
 
 namespace AcfLib.Filters
 {
-    internal sealed class ExceptionFilters : IActionFilter, IOrderedFilter
+    public class ExceptionFilters : IActionFilter, IOrderedFilter
     {
         public int Order { get; set; } = int.MinValue;
         List<Erro> erros = new List<Erro>();

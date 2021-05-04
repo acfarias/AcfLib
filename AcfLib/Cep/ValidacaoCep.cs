@@ -1,6 +1,6 @@
 ﻿namespace AcfLib.Cep
 {
-    internal abstract class ValidacaoCep
+    public abstract class ValidacaoCep
     {
         public bool ValidarCep(string cep)
         {
