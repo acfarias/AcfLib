@@ -12,8 +12,10 @@
 
             if (cpfCnpj.Length == 11)
                 return ValidarCpf(cpfCnpj);
-            else
+            else if (cpfCnpj.Length == 14)
                 return ValidarCnpj(cpfCnpj);
+            else
+                return false;
         }
 
         private static bool ValidarCpf(string cpf)
